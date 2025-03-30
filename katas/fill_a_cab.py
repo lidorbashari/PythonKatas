@@ -1,4 +1,5 @@
 def fill_a_cab(passengers, seats):
+    return passengers <= seats
     """
     Returns True if the number of passengers can fit in the cab seats, False otherwise.
     """

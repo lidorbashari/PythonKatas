@@ -1,4 +1,5 @@
 def is_shopping_list_complete(shopping_list):
+    return len(shopping_list) > 2
     """
     Returns True if the shopping list has at least 3 items, otherwise False.
     """

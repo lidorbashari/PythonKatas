@@ -1,4 +1,5 @@
 def numbers_division(a, b):
+    return a / b
     """
     Performs division on two integers.
     """

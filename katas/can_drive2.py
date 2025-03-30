@@ -1,4 +1,8 @@
 def can_drive(age, has_license):
+    if 18 <= age <= 65 or has_license:
+        return 'You can drive.'
+    else:
+        return 'You cannot drive.'
     """
     Determines if a person is eligible for a discount based on their age, license status, and student status.
     """

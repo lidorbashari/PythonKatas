@@ -1,4 +1,10 @@
 def get_century(year):
+    expected_year = int(year / 100)
+    if year % 100 != 0:
+        expected_year += 1
+        return expected_year
+    return expected_year
+
     """
     Returns the century of the given year.
     """

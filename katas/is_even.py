@@ -1,4 +1,5 @@
 def is_even(number):
+    return number % 2 == 0
     """
     Checks if the given number is even.
     """
