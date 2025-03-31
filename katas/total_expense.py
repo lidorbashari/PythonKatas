@@ -3,6 +3,9 @@ def calculate_total_expenses(expenses):
     Calculates the total of a list of expenses.
     """
     total = 0
+    for i in expenses:
+        total += i
+    return total
     # for loop here ....
         # total += ....
 

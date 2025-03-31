@@ -1,4 +1,6 @@
 def build_shopping_list(initial_items, new_item):
+    initial_items.append(new_item)
+    return initial_items
     """
     Addd new_item to the initial_items list.
     """

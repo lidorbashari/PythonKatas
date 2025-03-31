@@ -1,4 +1,9 @@
 def generate_name_pairs(names):
+    sec_list = []
+    for i in range(len(names)):
+        for j in range(i+1, len(names)):
+            sec_list.append((names[i], names[j]))
+    return sec_list
     """
     This function takes a list of names and returns a list of tuples,
     where each tuple contains all possible pairs of names.

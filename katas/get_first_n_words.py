@@ -1,4 +1,5 @@
 def get_first_n_words(text, n=5):
+    return ' '.join(text.split(' ')[:n])
     """
     Splits the text into words and returns the first 'n' words as a single string.
     """

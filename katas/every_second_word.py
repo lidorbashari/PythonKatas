@@ -1,4 +1,5 @@
 def get_alternate_words(sentence):
+    return sentence.split()[1::2]
     """
     Returns every second word from the given sentence.
     """

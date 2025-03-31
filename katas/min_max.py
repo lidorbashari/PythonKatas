@@ -3,6 +3,10 @@ def find_min(numbers):
     Finds the minimum number in a list without using the built-in min() function.
     """
     min_value = numbers[0]  # assume the 1st element is the minimum
+    for number in numbers:
+        if number < min_value:
+            min_value = number
+    return min_value
     # for loop comes here ....
         # update min_value in the loop body
 
@@ -10,6 +14,11 @@ def find_min(numbers):
 
 
 def find_max(numbers):
+    max_value = numbers[0]  # assume the 1st element is the minimum
+    for number in numbers:
+        if number > max_value:
+            max_value = number
+    return max_value
     """
     Finds the maximum number in a list without using the built-in max() function.
     """

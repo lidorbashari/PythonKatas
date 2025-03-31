@@ -1,4 +1,5 @@
 def is_valid_password(password):
+    return password.upper() != password and password.lower() != password and len(password) >=8
     """
     Checks if the given password meets the required criteria.
     """

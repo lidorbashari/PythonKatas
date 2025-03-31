@@ -1,17 +1,13 @@
 def verbing(word):
-    """
-    Given a string `word`, if its length is at least 3, append 'ing' in the end,
-    unless it already ends with 'ing', in which case add 'ly' instead.
-    If the string length is less than 3, leave it unchanged.
-
-    e.g.
-    teach -> teaching
-    do -> do
-    swimming -> swimmingly
-    """
+    if len(word) < 3:
+        return word
+    elif word.endswith('ing'):
+        return word + 'ly'  # מחליפים 'ing' ב-'ly'
+    else:
+        return word + 'ing'
 
 
-print(verbing('walk'))      # Expected output: teaching
+print(verbing('walk'))      # Expected output: walking
 print(verbing('swimming'))  # Expected output: swimmingly
 print(verbing('do'))        # Expected output: do
 

@@ -1,4 +1,5 @@
 def get_sandwich_ingredients(sandwich):
+    return sandwich[1:-1]
     """
     Returns the middle elements of the sandwich list
     """

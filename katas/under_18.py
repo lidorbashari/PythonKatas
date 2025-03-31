@@ -1,4 +1,9 @@
 def count_under_18(ages):
+    count = 0
+    for age in ages:
+        if age < 18:
+            count += 1
+    return count
     """
     Returns the count of elements in the list that are less than 18.
     """

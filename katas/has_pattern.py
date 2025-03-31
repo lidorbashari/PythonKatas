@@ -1,4 +1,5 @@
 def has_pattern(text):
+    return text.startswith('abc')
     """
     Checks if the text contains the specific pattern "abc" at the start.
     """
@@ -6,7 +7,7 @@ def has_pattern(text):
 
 
 print(has_pattern("abcdef"))  # True, "abc" is at the start
-print(has_pattern("abxyz"))   # True, "abc" is at the start
+print(has_pattern("abcxyz"))   # True, "abc" is at the start
 print(has_pattern("zabcdef")) # False, "abc" is not at the start
 print(has_pattern("xyz"))     # False, "abc" is not at the start
 

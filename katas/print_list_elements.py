@@ -1,4 +1,6 @@
 def print_list_elements(items):
+    for item in items:
+        print(item)
     """
     Prints each element of the list on a new line.
     """

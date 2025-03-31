@@ -1,4 +1,7 @@
 def find_student(student_list, student_name):
+    if student_name in student_list:
+        return f'{student_name} is enrolled.'
+    return f'{student_name} is not enrolled.'
     """
     Checks if a student is in the list of enrolled students.
     """

@@ -1,4 +1,5 @@
 def get_username(email):
+    return email.split('@')[0]
     """
     Returns the username part of the email address, which is the part before the '@'.
     For this exercise, assume that the email is always in the form:

@@ -36,43 +36,42 @@ _Kata_ is a Japanese word (型 or 形) meaning "form". It refers to a detailed c
 
 - [X] `my_abs.py`
 - [X] `shopping_list.py`
-- [ ] `last_one.py`
-- [ ] `sandwich_ingredients.py`
-- [ ] `every_second_word.py`
-- [ ] `recent_messages.py`
-- [ ] `get_username.py`
-- [ ] `shopping_list2.py`
-- [ ] `log_message.py`
-- [ ] `mailing_list.py`
-- [ ] `grader.py`
-- [ ] `find_student.py`
-- [ ] `is_word_absent.py`
-- [ ] `is_valid_password`
-- [ ] `is_earlier.py`
-- [ ] `num_of_digits.py`
-- [ ] `is_palindrome.py`
-- [ ] `has_pattern.py`
+- [X] `last_one.py`
+- [X] `sandwich_ingredients.py`
+- [X] `every_second_word.py`
+- [X] `recent_messages.py`
+- [X] `get_username.py`
+- [X] `log_message.py`
+- [X] `mailing_list.py`
+- [X] `grader.py`
+- [X] `find_student.py`
+- [X] `is_word_absent.py`
+- [X] `is_valid_password`
+- [X] `is_earlier.py`
+- [X] `num_of_digits.py`
+- [X] `is_palindrome.py`
+- [X] `has_pattern.py`
 
-- [ ] `is_subscriber_matching.py`
-- [ ] `get_first_n_words.py`
-- [ ] `clean_text.py`
-- [ ] `get_user_info.py`
-- [ ] `fraction_of_float.py`
-- [ ] `start_end.py`
-- [ ] `verbing.py`
-- [ ] `print_list_elements.py`
-- [ ] `total_expense.py`
-- [ ] `min_max.py`
-- [ ] `mailing_list2.py`
-- [ ] `is_prime.py`
-- [ ] `list_diff.py`
-- [ ] `under_18.py`
-- [ ] `even_sublist.py`
-- [ ] `sum_even_numbers.py`
-- [ ] `app_health.py`
-- [ ] `max_difference.py`
-- [ ] `name_pair.py`
-- [ ] `validate_age.py`
+- [X] `is_subscriber_matching.py`
+- [X] `get_first_n_words.py`
+- [X] `clean_text.py`
+- [X] `get_user_info.py`
+- [X] `fraction_of_float.py`
+- [X] `start_end.py`
+- [X] `verbing.py`
+- [X] `print_list_elements.py`
+- [X] `total_expense.py`
+- [X] `min_max.py`
+- [X] `mailing_list2.py`
+- [X] `is_prime.py`
+- [X] `list_diff.py`
+- [X] `under_18.py`
+- [X] `even_sublist.py`
+- [X] `sum_even_numbers.py`
+- [X] `app_health.py`
+- [X] `max_difference.py`
+- [X] `name_pair.py`
+- [X] `validate_age.py`
 
 - [ ] `is_unique_str.py`     
 - [ ] `reformat_phone.py`    

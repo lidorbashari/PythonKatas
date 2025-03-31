@@ -1,4 +1,5 @@
 def clean_text(text):
+    return text.replace('!','').replace('.','').replace(',','').replace('\'','')
     """
     Replaces common punctuation marks (',', '.', '!') in the text with spaces.
     """

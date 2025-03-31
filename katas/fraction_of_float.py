@@ -1,4 +1,5 @@
 def fraction_of_float(number):
+    return number - int(number)
     """
     Returns the fractional part of a given float number.
     """

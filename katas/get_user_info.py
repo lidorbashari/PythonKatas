@@ -1,4 +1,7 @@
 def split_full_name(full_name):
+    name = full_name.split(' ')
+    return name[0], name[1]
+
     """
     Splits a full name into first and last name and returns them as a tuple.
     """

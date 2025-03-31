@@ -1,11 +1,16 @@
 def is_prime(number):
+    if number < 2:
+        return False
     """
     Returns True if the given number is prime, False otherwise.
     A prime number is an integer greater than 1 that has no divisors
     other than 1 and itself.
     """
-    for i in range(number):
-        ...  # TODO complete the loop body
+    for i in range(2, number):
+        if number % i == 0:
+            return False
+    return True
+
 
 
 number = 11

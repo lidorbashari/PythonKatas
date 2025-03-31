@@ -1,4 +1,5 @@
 def get_recent_messages(messages, start_index):
+    return messages[start_index:]
     """
     Returns a list of messages starting from the given index to the end of the list.
     """
