@@ -1,4 +1,9 @@
 def swap_elements(lst, index1, index2):
+    in1 = lst[index1]
+    lst[index1] = lst[index2]
+    lst[index2] = in1
+    return
+
     """
     This function swaps the elements at the specified indices in the given list.
 

@@ -1,4 +1,8 @@
 def convert_currency(amount, from_currency, to_currency, exchange_rates):
+    from_rate = exchange_rates.get(from_currency)
+    to_rate = exchange_rates.get(to_currency)
+    x = amount * to_rate
+    return x
     """
     Converts an amount from one currency to another using the provided exchange rates.
     """
@@ -15,7 +19,7 @@ exchange_rates = {
 # Convert 100 USD to EUR
 amount = 100
 from_currency = "USD"
-to_currency = "EUR"
+to_currency = "JPY"
 
 converted = convert_currency(amount, from_currency, to_currency, exchange_rates)
 print(converted)  # Expected output: 100 USD is equal to 85.00 EUR

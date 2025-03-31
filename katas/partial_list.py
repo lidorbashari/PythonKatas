@@ -1,4 +1,9 @@
 def partial_list(input_list, fraction):
+    num_of_elements = int(len(input_list) * fraction)
+    new_list = input_list[0:num_of_elements]
+    return new_list
+
+
     """
     Given a list and a fraction (0 < fraction <= 1),
     return a new list containing only the part of the input list

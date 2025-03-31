@@ -1,4 +1,6 @@
 def all_elements_meet_condition(numbers):
+    return all(x > 0 for x in numbers)
+
     """
     Checks if all elements in the given list of numbers are positive.
     """

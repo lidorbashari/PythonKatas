@@ -1,4 +1,11 @@
 def reformat_phone(phone_str):
+    digits = ''
+    for char in phone_str:
+        if char.isdigit():
+            digits += char
+    if len(digits) != 10:
+        return None
+    return f'({digits[0:3]}) {digits[3:6]}-{digits[6:10]}'
     """
     This function takes a string representing a phone number and reformats it into
     a standardized format: (XXX) XXX-XXXX, where X represents a digit.
@@ -11,7 +18,7 @@ def reformat_phone(phone_str):
 print(reformat_phone("123-456-7890"))  # Expected output: (123) 456-7890
 print(reformat_phone("(123) 456-7890"))  # Expected output: (123) 456-7890
 print(reformat_phone("1234567890"))  # Expected output: (123) 456-7890
-print(reformat_phone("123-45"))  # Expected output: None
+print(reformat_phone("123-458//-9/4/8++"))  # Expected output: None
 
 
 """
