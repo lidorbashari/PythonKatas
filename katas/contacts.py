@@ -1,4 +1,5 @@
 def add_contact(contact_book, name, phone_number):
+    contact_book[name] = phone_number
     """
     Adds a contact with the given name and phone number to the contact_book.
     If the contact already exists, it updates the phone number.

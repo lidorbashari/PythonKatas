@@ -1,4 +1,6 @@
 def get_employee_department(employee_dict, employee_id):
+    if employee_id in employee_dict:
+        return employee_dict[employee_id]
     """
     Returns the department of the employee with the given employee_id.
     If the employee_id does not exist in the dictionary, return 'Unknown'.

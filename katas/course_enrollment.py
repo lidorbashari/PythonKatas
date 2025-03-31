@@ -1,4 +1,5 @@
 def can_enroll(student, course):
+    return student['grade_level'] >= course['grade_requirement']
     """
     Checks if a student can enroll in a course based on their grade level and the course's grade requirement.
     """

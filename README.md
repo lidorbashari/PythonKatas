@@ -82,9 +82,9 @@ _Kata_ is a Japanese word (型 or 形) meaning "form". It refers to a detailed c
 - [X] `all_positive.py`      
 - [X] `long_str.py`          
 - [X] `currency_convert.py`  
-- [ ] `get_department.py'`   
-- [ ] `course_enrollment.py` 
-- [ ] `contacts.py`          
+- [X] `get_department.py'`   
+- [X] `course_enrollment.py` 
+- [X] `contacts.py`          
 - [ ] `phone_lookup.py`      
 - [ ] `fix_movie_review.py`  
 - [ ] `overweight.py`        
