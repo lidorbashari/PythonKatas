@@ -12,9 +12,6 @@ def top_student(data):
     """
     Returns the student dict with the highest grade
     """
-    return max(data)
-
-
 result = top_student(students)
 print(top_student)  # {'name': 'Eva', 'grade': 95, 'birthdate': '2003-01-17'} expected
 

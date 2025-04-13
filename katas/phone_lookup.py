@@ -1,4 +1,8 @@
 def find_contact(phonebook, name):
+    if name in phonebook:
+        return phonebook[name]
+    else:
+        return f'Contact not found'
     """
     Look up a contact's phone number by their name in the phonebook.
 

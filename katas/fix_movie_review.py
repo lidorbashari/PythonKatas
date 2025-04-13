@@ -4,8 +4,10 @@ def get_movie_review(reviews, movie):
     """
 
     # fixme
-    return reviews['movie']
-
+    if movie in reviews:
+        return reviews[movie]
+    else:
+        return f'Unknown movie.'
 
 movie_reviews = {
     'Inception': 'Excellent movie with a mind-bending plot.',

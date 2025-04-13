@@ -1,4 +1,9 @@
 def ming_the_gap(sentence):
+    count = 0
+    for i in range(len(sentence)):
+        if sentence[i] == ' ':
+            count += 1
+    return count
     """
     Returns the number of spaces in the given sentence.
     """

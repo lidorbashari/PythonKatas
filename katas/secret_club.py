@@ -1,8 +1,9 @@
 def secret_club(keys, values):
-    dicte = {}
-    for i in range(len(keys)):
-        dicte[keys[i]] = values[i]
-    return dicte
+    dictionery = {}
+    if len(keys) == len(values):
+        for i in range(len(keys)):
+            dictionery[keys[i]] = values[i]
+    return dictionery
     """
     Constructs a dictionary to map club members to their secret codes.
     - keys: A list of club member names.

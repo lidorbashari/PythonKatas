@@ -1,4 +1,9 @@
 def count_folders(file_path):
+    if '\\' in file_path:
+        folder = file_path.split('\\')[1:-1]
+    else:
+        folder = file_path.split('/')[1:-1]
+    return len(folder)
     """
     Returns the number of folders in the given file path.
     `file_path` is a string representing the path to a file (either Windows or Linux format).

@@ -1,4 +1,10 @@
 def lets_vote(votes, candidate):
+    if candidate in votes:
+        votes[candidate] += 1
+        return votes
+    else:
+        votes[candidate] = 1
+        return votes
     """
     Updates the vote counts in the votes dictionary based on the candidate who received a single vote.
     """

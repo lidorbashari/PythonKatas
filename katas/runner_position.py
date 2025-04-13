@@ -1,4 +1,8 @@
 def find_runner_position(runners, runner_name):
+    for i in range(len(runners)):
+        if runner_name == runners[i]:
+            return i + 1
+    return -1
     """
     Returns the index of the given runner in the list, or -1 if the runner is not found.
     """

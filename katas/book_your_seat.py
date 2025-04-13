@@ -1,4 +1,21 @@
 def add_passenger(seats, seat_class, passenger_name):
+    if seat_class == "Business":
+        for i in range(0,10):
+            if seats[i] is None:
+                seats[i] = passenger_name
+                break
+    if seat_class == "First":
+        for i in range(10,21):
+            if seats[i] is None:
+                seats[i] = passenger_name
+                break
+    if seat_class == "Economy":
+        for i in range(21,100):
+            if seats[i] is None:
+                seats[i] = passenger_name
+                break
+    return seats
+
     """
     Adds a passenger to the first available seat in the correct section.
     First 10 seats are for 'Business' Class.

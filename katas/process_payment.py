@@ -1,4 +1,17 @@
 def process_payment(payment):
+    if isinstance(payment, float):
+        return f'${payment:.2f}'
+    elif isinstance(payment, str):
+        try:
+            return f'Payment Ref: ${float(payment):.2f}'
+        except ValueError:
+            return None
+    elif isinstance(payment, list):
+        if all(isinstance(x, float) for x in payment):
+            total = sum(payment)
+            return f"${total:.2f}"
+        else:
+            return None
     """
     Returns a formatted string of the provided amount, of None if the input is invalid.
 
